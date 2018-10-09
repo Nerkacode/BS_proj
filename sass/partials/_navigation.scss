@@ -1,0 +1,19 @@
+.nav-item a {
+    font-size: 1.1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+@media (min-width: $sm) {
+    .nav-item a {
+        border: 1px solid gainsboro;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.nav-item.active a, .nav-item a:hover {
+    background-color: gray;
+}
